@@ -21,6 +21,7 @@
         <% end %>
       <% end %>
       <%= yield %>
+      <%= turbo_frame_tag "remote_modal" %>
     </div>
 
   </body>
